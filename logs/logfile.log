@@ -1,0 +1,18 @@
+2019-04-07 21:17:15,018 INFO  (main) [BaseSteps(readProperties:138)] reading properties from the path : /Users/mukulchadha/Data/Projects/SeleniumOrmuWP/src/main/java/configurations/config.properties
+2019-04-07 21:17:15,020 INFO  (main) [BaseSteps(initializeDriver:57)] Initializing the driver..
+2019-04-07 21:17:15,021 INFO  (main) [BaseSteps(initializeChromeDriver:80)] initializing the chrome driver /Users/mukulchadha/Data/Projects/SeleniumOrmuWP/src/main/java/drivers/chromedriver
+2019-04-07 21:17:19,298 INFO  (main) [FeaturesManagerFactory(<init>:17)] FeaturesManagerFactory object created.
+2019-04-07 21:17:19,395 INFO  (TestNG-test=JavaTest-1) [JavaTest1(beforeMethod:20)] Before Test method.....
+2019-04-07 21:17:19,397 INFO  (TestNG-test=JavaTest-1) [BaseSteps(loadUrl:171)] loading the url: https://uat.ormuco.com/login
+2019-04-07 21:17:23,449 INFO  (TestNG-test=JavaTest-1) [BaseSteps(waitForLoad:177)] wait for page to load...
+2019-04-07 21:17:23,479 INFO  (TestNG-test=JavaTest-1) [TestListener(onTestStart:27)] *** Running test method firstTest...
+2019-04-07 21:17:23,631 INFO  (TestNG-test=JavaTest-1) [JavaTest1(firstTest:36)] Test Started.....
+2019-04-07 21:17:23,632 INFO  (TestNG-test=JavaTest-1) [BaseSteps(storeTestInfo:298)] Validating the Ormuco login page.
+2019-04-07 21:17:25,023 INFO  (TestNG-test=JavaTest-1) [BaseSteps(storeTestInfo:298)] Username entered: test
+2019-04-07 21:17:25,274 INFO  (TestNG-test=JavaTest-1) [BaseSteps(storeTestInfo:298)] Password entered: test
+2019-04-07 21:17:25,275 INFO  (TestNG-test=JavaTest-1) [BaseSteps(storeTestInfo:298)] Click Signin button.
+2019-04-07 21:17:25,390 INFO  (TestNG-test=JavaTest-1) [BaseSteps(storeTestInfo:298)] Validating login error message.
+2019-04-07 21:17:25,444 INFO  (TestNG-test=JavaTest-1) [JavaTest1(afterMethod:29)] After Test method.....
+2019-04-07 21:17:25,445 INFO  (TestNG-test=JavaTest-1) [BaseSteps(storeTestInfo:298)] Close the browser.
+2019-04-07 21:17:26,281 INFO  (main) [TestSuiteHooks(afterSuite:27)] This will execute after the Test Suite
+2019-04-07 21:17:26,281 INFO  (main) [BaseSteps(quitDriver:161)] Quit the driver

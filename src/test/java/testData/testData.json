@@ -1,0 +1,14 @@
+{
+	"QA":{
+	   "firstTest":{
+		  "Username":"test",
+		  "Password":"Passw0rd!"
+	   }
+	},
+	"Demo":{
+	   "firstTest":{
+		  "Username":"test",
+		  "Password":"Passw0rd!"
+	   }
+	}
+ }
