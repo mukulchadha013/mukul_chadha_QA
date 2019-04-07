@@ -38,8 +38,11 @@ public class BaseSteps extends ProjectConfigurations{
 
 	private static Logger log = Logger.getLogger(new Throwable().getStackTrace()[0].getClassName());
 	
+	/**
+	 * This method is used to setup the project and set all the required configurations or dependencies for the project.
+	 * Also, to make a note while using this method is not to change the order of methods in it.
+	 */
 	public void setUp(){
-		//Please do not change the ordering of methods in setUp @author: mchadha
 		softAssert = new SoftAssert();
 		setLogConfig();
 		readProperties();
